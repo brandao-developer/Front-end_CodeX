@@ -1,0 +1,106 @@
+.containerFormulario {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #5a1283, #ed09fe);
+}
+.containerFormulario article {
+    padding: 0px 3rem;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.56);
+}
+.containerFormulario article aside div {
+    padding: 3rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.containerFormulario article aside div span {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+.containerFormulario article aside div span h1 {
+    font-size: 2rem;
+}
+.containerFormulario article aside div span h2 {
+    font-size: .8rem;
+}
+.containerFormulario article aside div span h2 a {
+    color: #ed09fe;
+    cursor: pointer;
+    transition: all .2s;
+}
+.ccontainerFormulario article aside div span h2 a:hover {
+    color: #5a1283;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+form input {
+    width: 75%;
+    border-bottom: solid 2px #000;
+}
+form span {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+#BtnEntrar {
+    padding: 0.5rem 2.5rem;
+}
+.BtnLogin {
+    background: linear-gradient(45deg, #5a1283, #ed09fe);
+    border: none;
+    padding: .5rem 1.5rem;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.BtnLogin:hover {
+    background: linear-gradient(45deg, #ed09fe, #5a1283);
+    
+}
+select {
+    width: 75%;
+    border: solid 2px;
+    border-radius: 20px;
+
+}
+.BbtnCadastraAtividade {
+    cursor: pointer;
+    padding: 0px .5rem;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+.BbtnCadastraAtividade:hover {
+    background: #ed09fe;
+    color: #fff;
+    border: 2px solid #ed09fe;
+}
+@media (max-width: 600px) {
+    .containerFormulario article aside div span h1 {
+        font-size: 1rem;
+    }
+    .containerFormulario article aside div span legend {
+        font-size: .9rem;
+    }
+    .containerFormulario {
+        padding: 0px;
+        height: 100vh;
+    }
+    .containerFormulario article {
+        padding: 0px 1rem;
+    }
+    .SessaoCadastro {
+        padding: 1rem 0px !important;
+    }
+}
